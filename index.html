@@ -13,44 +13,8 @@
     <title>znb's Special Day</title>
   </head>
   <body>
-    <h3 id="days"></h3>
-    <h3 id="hours"></h3>
-    <h3 id="mins"></h3>
-    <h3 id="secs"></h3>
-    <div id="end"></div>
-    <script>
-    // The data/time we want to countdown to
-    var countDownDate = new Date("Dec 31, 2020 23:59:59").getTime();
-
-    // Run myfunc every second
-    var myfunc = setInterval(function() {
-
-    var now = new Date().getTime();
-    var timeleft = countDownDate - now;
-        
-    // Calculating the days, hours, minutes and seconds left
-    var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-        
-    // Result is output to the specific element
-    document.getElementById("days").innerHTML = days + "d "
-    document.getElementById("hours").innerHTML = hours + "h " 
-    document.getElementById("mins").innerHTML = minutes + "m " 
-    document.getElementById("secs").innerHTML = seconds + "s " 
-        
-    // Display the message when countdown is over
-    if (timeleft < 0) {
-        clearInterval(myfunc);
-        document.getElementById("days").innerHTML = ""
-        document.getElementById("hours").innerHTML = "" 
-        document.getElementById("mins").innerHTML = ""
-        document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "<h1>HAPPY BIRTHDAY ZNBB!!!</h1><p>Zainab, you are a great friend and one of the best ppl I know (plus a Genius)</p><p>May this day be the best day of ur life and may all ur dreams and wishes come true</p><p>Sada khudh raho aur yunhi hanste khelte rehna</p><img src='IMG_4433.PNG' alt='404'>";
-    }
-    }, 1000);
-    </script>
+    <h1> Hello Guys</h1>
+    <img src='a.jpg' alt='a'>"
     
   </body>
 </html>
